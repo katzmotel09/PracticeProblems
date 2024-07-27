@@ -17,18 +17,11 @@ namespace PracticeProblems
         static void Main(string[] args)
         {
             int[] intArr = new int[] { 1, 2, 3, 4, 5 };
-            RotateRight(intArr);
-        }
-        internal static void RotateRight(int[] arr)
-        {
-            int size = arr.Length;
-            int temp;
-            for (int i = 0; i < size - 1; i++)
-            
+            RotateRight.rotRight(intArr);
+
+            foreach (int i in intArr) 
             {
-                temp = arr[i]; 
-                arr[i] = arr[i + 1]; 
-                arr[i + 1] = temp; kkjdcjdj  
+                Console.WriteLine(i);
             }
         }
     }
