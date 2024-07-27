@@ -16,13 +16,7 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int[] intArr = new int[] { 1, 2, 3, 4, 5 };
-            RotateRight.rotRight(intArr);
-
-            foreach (int i in intArr) 
-            {
-                Console.WriteLine(i);
-            }
+            RotateRight.rotRight(new int[] {1, 2, 3, 4, 5});
         }
     }
 }

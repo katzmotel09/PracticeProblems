@@ -12,6 +12,7 @@ namespace PracticeProblems
         {
             int size = arr.Length; // gets length of array
             int temp; // temporarily holds index in array
+            
             for (int i = 0; i < size - 1; i++) // starts at first index, loops through until i = last index
 
             {
@@ -19,10 +20,14 @@ namespace PracticeProblems
                 arr[i] = arr[i + 1]; // sets first index of array = next index
                 arr[i + 1] = temp; // sets next index = temp
             }
+
+            foreach (int i in arr)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
 //Rotate an array to the right
-//To use, create an array of ints in main method
-//Call the .rotRight function of the RotateRight class.
-//Use a foreach loop to print the results.
+//To use, call the .rotRight function of RotateRight class
+//pass an array of ints to the function
