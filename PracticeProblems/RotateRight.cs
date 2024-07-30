@@ -21,7 +21,7 @@ namespace PracticeProblems
                 arr[i + 1] = temp; // sets next index = temp
             }
 
-            foreach (int i in arr)
+            foreach (int i in arr) // prints each num in rotated array to console
             {
                 Console.WriteLine(i);
             }

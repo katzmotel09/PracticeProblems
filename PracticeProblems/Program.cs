@@ -16,10 +16,7 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            RotateRight.rotRight(new int[] {1, 2, 3, 4, 5});
+            _1Dto2D.SingleDimToMultiDim(new int[] { 1, 2, 3, 4, 5, 6 }, 2, 3);
         }
     }
 }
-//Create a function that takes one int array as a parameter.
-//The function should perform Left circular rotation of an array.
-//Print the value to the console.
