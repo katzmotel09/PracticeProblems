@@ -10,13 +10,13 @@ namespace PracticeProblems
     {
         public static int GetExpoNumber(int num, int pow) 
         {
-            int trackNum = num;
+            int trackNum = num; //keeps track of multiplied number
             int result = 0;
 
-            for (int i = 1; i < pow; i++) 
+            for (int i = 1; i < pow; i++) // loops through until i = pow
             {
-                result = num * trackNum;
-                trackNum = result;
+                result = num * trackNum; // sets result to num * trackedNum
+                trackNum = result; // updates trackNum to product of num and trackedNum
             }
 
             return result;
