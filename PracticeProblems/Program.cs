@@ -16,7 +16,13 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            _1Dto2D.SingleDimToMultiDim(new int[] { 1, 2, 3, 4, 5, 6 }, 2, 3);
+            int number = 9;
+            int power = 3;
+            int result = CalculateExponentialNumber.GetExpoNumber(number, power);
+
+            Console.WriteLine($"Number: {number}");
+            Console.WriteLine($"Power: {power}");
+            Console.WriteLine($"Exponential number: {result}");
         }
     }
 }
