@@ -16,10 +16,9 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-           int result = CountParameters.CountParams(69, "bruh", 4.20, true, "fart");
+            string word = GetCase.Case("");
 
-            Console.Write("Number of params passed to function: ");
-            Console.Write($"{result}");
+            Console.WriteLine($"Get Case: {word}");
         }
     }
 }

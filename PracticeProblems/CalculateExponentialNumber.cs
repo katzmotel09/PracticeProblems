@@ -23,3 +23,5 @@ namespace PracticeProblems
         }
     }
 }
+//Create a function that takes two ints as 
+//parameters and returns the exponential number.

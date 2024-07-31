@@ -21,3 +21,5 @@ namespace PracticeProblems
         }
     }
 }
+//Create a function that counts the amount
+//of params passed to the function.
