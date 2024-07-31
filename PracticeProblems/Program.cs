@@ -16,13 +16,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int number = 9;
-            int power = 3;
-            int result = CalculateExponentialNumber.GetExpoNumber(number, power);
+           int result = CountParameters.CountParams(69, "bruh", 4.20, true, "fart");
 
-            Console.WriteLine($"Number: {number}");
-            Console.WriteLine($"Power: {power}");
-            Console.WriteLine($"Exponential number: {result}");
+            Console.Write("Number of params passed to function: ");
+            Console.Write($"{result}");
         }
     }
 }
