@@ -16,9 +16,14 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string word = GetCase.Case("");
+            int[] colorArray = new int[] { 255, 255, 255 };
 
-            Console.WriteLine($"Get Case: {word}");
+            int[] invertedColorArray = InvertColorArray.InvertColor(colorArray);
+
+            foreach (int value in invertedColorArray)
+            {
+                Console.WriteLine(value);
+            }
         }
     }
 }
