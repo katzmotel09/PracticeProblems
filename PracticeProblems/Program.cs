@@ -16,14 +16,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int[] colorArray = new int[] { 255, 255, 255 };
+            int year = 1900;
+            bool leapYear = IsItLeapYear.IsLeapYear(year);
 
-            int[] invertedColorArray = InvertColorArray.InvertColor(colorArray);
-
-            foreach (int value in invertedColorArray)
-            {
-                Console.WriteLine(value);
-            }
+            Console.Write($"Is it a leap year?: {leapYear}");
         }
     }
 }
