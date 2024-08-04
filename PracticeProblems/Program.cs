@@ -18,11 +18,9 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string number = "15805714423";
-            string formatNum = FormatPhoneNumber.PhoneNumber(Format.Dashed, number);
-
-            Console.WriteLine(formatNum);
+            string cat = "fry";
             
+            Console.WriteLine(ReverseWord.ReverseString(cat));
         }
     }
 }
