@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Text.RegularExpressions;
-using PracticeProblems.Easy;
+using PracticeProblems._1._Easy;
 using PracticeProblems.Medium;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -18,11 +18,7 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string word = "abba";
-            bool result = IsPalindrome.Palindrome(word);
-
-            Console.Write($"Is {word} a palindrome: ");
-            Console.WriteLine(result);
+            Console.WriteLine(GetNumberOfLetterOccurrencesInSentence.LetterOccurence("hello world", 'l'));
         }
     }
 }
