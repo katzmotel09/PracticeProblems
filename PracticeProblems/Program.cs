@@ -18,9 +18,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string cat = "fry";
-            
-            Console.WriteLine(ReverseWord.ReverseString(cat));
+            string word = "abba";
+            bool result = IsPalindrome.Palindrome(word);
+
+            Console.Write($"Is {word} a palindrome: ");
+            Console.WriteLine(result);
         }
     }
 }
