@@ -19,10 +19,12 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int num = 35;
-            bool result = IsNumberOdd.Odd(num);
+            int num1 = 1000;
+            int num2 = 1001;
 
-            Console.Write($"Is {num} odd: {result}");
+            Console.Write("Is pin valid: ");
+
+            ValidatePin.ValidPin(num1, num2);
         }
     }
 }
