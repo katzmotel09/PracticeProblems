@@ -19,10 +19,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int[] nums = { -5, 5, -5, 5 };
-            int result = AbsoluteValue.AbsValue(nums);
+            int num = 35;
+            bool result = IsNumberEven.Even(num);
 
-            Console.WriteLine(result);
+            Console.Write($"Is {num} even: {result}");
         }
     }
 }
