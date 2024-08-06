@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeProblems.Medium
+namespace PracticeProblems._2._Medium
 {
     internal class CountParameters
     {

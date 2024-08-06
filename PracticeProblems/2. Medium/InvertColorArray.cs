@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeProblems
+namespace PracticeProblems._2._Medium
 {
     internal class InvertColorArray
     {
