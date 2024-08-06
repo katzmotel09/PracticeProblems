@@ -19,11 +19,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int age = 25;
-            double result = AgeToDays.AgeDays(age);
+            int[] nums = { -5, 5, -5, 5 };
+            int result = AbsoluteValue.AbsValue(nums);
 
-            Console.WriteLine($"Your age: {age}");
-            Console.WriteLine($"Your age in days: {result}");
+            Console.WriteLine(result);
         }
     }
 }
