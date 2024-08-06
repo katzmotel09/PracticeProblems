@@ -20,9 +20,9 @@ namespace PracticeProblems
         static void Main(string[] args)
         {
             int num = 35;
-            bool result = IsNumberEven.Even(num);
+            bool result = IsNumberOdd.Odd(num);
 
-            Console.Write($"Is {num} even: {result}");
+            Console.Write($"Is {num} odd: {result}");
         }
     }
 }
