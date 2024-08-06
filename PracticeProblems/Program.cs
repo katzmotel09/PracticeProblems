@@ -19,10 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int[] ints = { 3, 11, 4, 6, 8, 9, 6 };
-            double result = GetMean.Mean(ints);
+            int age = 25;
+            double result = AgeToDays.AgeDays(age);
 
-            Console.WriteLine(result);
+            Console.WriteLine($"Your age: {age}");
+            Console.WriteLine($"Your age in days: {result}");
         }
     }
 }
