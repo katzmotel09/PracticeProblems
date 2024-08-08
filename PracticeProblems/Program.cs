@@ -19,11 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            double num1 = 177.15;
-            double num2 = 8234.33;
-            double result = Multiply.Multiplies(num1, num2);
+            int num1 = 4;
+            int num2 = 2;
+            int result = Subtract.Sub(num1, num2);
 
-            Console.WriteLine($"The product of {num1} and {num2} is: {result}");
+            Console.WriteLine($"{num1} - {num2} is: {result}");
         }
     }
 }
