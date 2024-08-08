@@ -19,11 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int num1 = 4;
-            int num2 = 2;
-            int result = Subtract.Sub(num1, num2);
+            int num1 = 1;
+            int num2 = 0;
+            bool result = AND.And(num1, num2);
 
-            Console.WriteLine($"{num1} - {num2} is: {result}");
+            Console.WriteLine($"{num1} & {num2}: {result}");
         }
     }
 }
