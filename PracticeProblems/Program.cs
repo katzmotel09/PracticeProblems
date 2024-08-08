@@ -19,11 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            double num1 = 10.5;
-            double num2 = 7.3;
-            double result = Divide.Divides(num1, num2);
+            double num1 = 177.15;
+            double num2 = 8234.33;
+            double result = Multiply.Multiplies(num1, num2);
 
-            Console.WriteLine($"The quoetient of {num1} and {num2} is: {result}");
+            Console.WriteLine($"The product of {num1} and {num2} is: {result}");
         }
     }
 }
