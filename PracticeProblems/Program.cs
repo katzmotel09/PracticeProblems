@@ -19,11 +19,14 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string sentence = "Dude, this is so awesome!";
-            double result = AverageWordLength.AverageLength(sentence);
+            double b = 10.9;
+            double h = 15.5;
+            double area = AreaOfTriangle.Triangle(b, h);
 
-            Console.WriteLine($"The avg length of words in: {sentence}");
-            Console.WriteLine(result);
+            Console.WriteLine("The area of a triangle");
+            Console.WriteLine($"Base: {b}");
+            Console.WriteLine($"Height: {h}");
+            Console.WriteLine($"Area: {area}");
         }
     }
 }

@@ -10,10 +10,9 @@ namespace PracticeProblems._1._Easy
     {
         public static double Triangle(double b, double h) 
         {
-            double half = 1.5;
-            double area = half * b * h;
+            double area = (b * h) / 2;
 
-            return Math.Round(area, 2);
+            return area;
         }
     }
 }
