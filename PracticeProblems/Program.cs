@@ -19,14 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            double b = 10.9;
-            double h = 15.5;
-            double area = AreaOfTriangle.Triangle(b, h);
+            int mass = 60;
+            int velocity = 3;
+            int energy = CalculateKineticEnergy.Energy(mass, velocity);
 
-            Console.WriteLine("The area of a triangle");
-            Console.WriteLine($"Base: {b}");
-            Console.WriteLine($"Height: {h}");
-            Console.WriteLine($"Area: {area}");
+            Console.WriteLine(energy);
         }
     }
 }
