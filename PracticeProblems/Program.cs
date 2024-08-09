@@ -19,11 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int num1 = 1;
-            int num2 = 0;
-            bool result = AND.And(num1, num2);
+            string sentence = "Dude, this is so awesome!";
+            double result = AverageWordLength.AverageLength(sentence);
 
-            Console.WriteLine($"{num1} & {num2}: {result}");
+            Console.WriteLine($"The avg length of words in: {sentence}");
+            Console.WriteLine(result);
         }
     }
 }
