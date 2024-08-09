@@ -19,11 +19,11 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int mass = 60;
-            int velocity = 3;
-            int energy = CalculateKineticEnergy.Energy(mass, velocity);
+            double revenue = 100.0;
+            double cost = 30.0;
+            double profit = CalculateProfitMargin.Profits(revenue, cost);
 
-            Console.WriteLine(energy);
+            Console.WriteLine(profit);
         }
     }
 }
