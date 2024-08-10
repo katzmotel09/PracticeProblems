@@ -19,10 +19,12 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string number = "12345";
-            int result = ConvertStringToInt.StringToInt(number);
+            int[] nums = MultiplyArrayByLength.MultiplyArray(new int[] { 84, 2, 5, 21, 4, 0 });
 
-            Console.WriteLine(result);
+            foreach (int i in nums) 
+            {
+                Console.Write(i + " ");
+            }
         }
     }
 }
