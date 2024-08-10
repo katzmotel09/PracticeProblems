@@ -19,11 +19,13 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            double revenue = 100.0;
-            double cost = 30.0;
-            double profit = CalculateProfitMargin.Profits(revenue, cost);
+            int width = 4;
+            int length = 2;
+            int height = 2;
+            int result = ComputeVolume.Volume(width, length, height);
 
-            Console.WriteLine(profit);
+            Console.WriteLine(result);
+            
         }
     }
 }
