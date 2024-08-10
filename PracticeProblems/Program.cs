@@ -19,13 +19,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int width = 4;
-            int length = 2;
-            int height = 2;
-            int result = ComputeVolume.Volume(width, length, height);
+            int min = 5;
+            int result = ConvertMinutesToSeconds.MinToSec(min);
 
-            Console.WriteLine(result);
-            
+            Console.WriteLine($"There are {result} seconds in {min} minute(s).");
         }
     }
 }
