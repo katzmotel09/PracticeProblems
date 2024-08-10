@@ -19,10 +19,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int min = 5;
-            int result = ConvertMinutesToSeconds.MinToSec(min);
+            string number = "12345";
+            int result = ConvertStringToInt.StringToInt(number);
 
-            Console.WriteLine($"There are {result} seconds in {min} minute(s).");
+            Console.WriteLine(result);
         }
     }
 }
