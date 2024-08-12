@@ -19,10 +19,14 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            string sentence = "hello world";
-            int result = VowelCount.VCount(sentence);
+            int num = 7;
+            int multiply = 5;
+            int[] results = ArrayOfMultiples.ArrayMultiples(num, multiply);
 
-            Console.WriteLine(result);
+            foreach (int result in results) 
+            {
+                Console.Write(result + " ");
+            }
         }
     }
 }
