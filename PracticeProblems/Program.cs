@@ -19,13 +19,12 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            int num = 7;
-            int multiply = 5;
-            int[] results = ArrayOfMultiples.ArrayMultiples(num, multiply);
+            string[] names = { "kat", "ryan", "andrew" };
+            string[] capitalized = CapitalizeName.CapitalNames(names);
 
-            foreach (int result in results) 
+            foreach (string name in capitalized) 
             {
-                Console.Write(result + " ");
+                Console.WriteLine(name);
             }
         }
     }
